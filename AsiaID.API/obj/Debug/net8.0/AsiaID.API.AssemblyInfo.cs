@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsiaID.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cfc7e864648d1c0ce23ba8c2addb21e7c7c0b8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9aafd3d1f8c0fbaabaa4e9e8fadb117879e8a30")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsiaID.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsiaID.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
