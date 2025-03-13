@@ -16,16 +16,18 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
-//app.UseAuthorization();
+app.UseRouting();
 
-//app.MapControllers();
+app.UseAuthorization();
 
-app.Run(async (contex)=>
+app.UseEndpoints(endpoints =>
 {
-    await contex.Response.WriteAsync("Hello World!");
+    endpoints.MapControllers();
 });
+
+app.MapControllers();
 
 
 app.Run();
